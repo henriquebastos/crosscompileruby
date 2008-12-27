@@ -3,7 +3,7 @@ BUILD = i686-apple-darwin8
 TARGET = $(HOST)
 CC = $(HOST)-gcc
 RUBYTARGZ=extra/ruby-1.8.7-p72.tar.gz
-INSTALLDIR=bin/ruby-mingw32
+INSTALLDIR=$(PWD)/bin/ruby-mingw32
 
 #Used to fool mkmf.rb while compiling exts
 TMP_ROOT=$(PWD)/tmp
